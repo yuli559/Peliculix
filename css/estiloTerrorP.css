@@ -470,3 +470,20 @@ header nav a.activo {
 		transform: none; /* Aumenta el tamaño al 110% del tamaño original */
 		transition:ease; /* Agrega una transición suave de 0.3 segundos */
 }
+
+/*descripcion*/
+
+.descripcion-pelicula {
+	padding: 10px;
+	display: none;
+	color: white; 
+  }
+
+  .mostrar-boton{
+	margin: 0 auto;
+	background-color: #2e81e0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
