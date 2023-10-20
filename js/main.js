@@ -67,3 +67,20 @@ function redireccionar() {
         }
 
 
+//descripcion //
+document.addEventListener("DOMContentLoaded", function() {
+	const botonesMostrar = document.querySelectorAll(".mostrar-boton");
+  
+	botonesMostrar.forEach(function(boton) {
+	  boton.addEventListener("click", function() {
+		const descripcion = this.nextElementSibling;
+  
+		if (descripcion.style.display === "none" || descripcion.style.display === "") {
+		  descripcion.style.display = "block";
+		} else {
+		  descripcion.style.display = "none";
+		}
+	  });
+	});
+  });
+  
