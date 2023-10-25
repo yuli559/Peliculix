@@ -473,16 +473,17 @@ header nav a.activo {
 /*descripcion*/
 
 .descripcion-pelicula {
-	padding: 10px;
+	padding: 20px;
 	display: none;
 	color: white; 
   }
 
-  .mostrar-boton{
-	margin: 0 auto;
-	background-color: #2e81e0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
+  .mostrar-boton {
+    margin: 0 auto;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
